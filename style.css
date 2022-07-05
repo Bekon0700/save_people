@@ -11,10 +11,11 @@ header{
     min-height: 669px;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(./images/donation9.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(./images/donation9.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container{
@@ -156,6 +157,34 @@ header{
     background-color: rgba(255, 244, 214, 1);
 }
 
+/* showcase section */
+.showcase{
+    display: flex;
+    min-height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase_container{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+.showcase_container .left{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.showcase_container .right img{
+    width: 220px;
+    height: 220px;
+}
 
 /* Subscribe section */
 .subscribe{
