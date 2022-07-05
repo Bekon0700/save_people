@@ -4,6 +4,8 @@
     font-family: 'Nunito', sans-serif;
 }
 
+/* header section */
+
 header{
     display: flex;
     min-height: 669px;
@@ -25,13 +27,13 @@ header{
     min-height: 60%;
 }
 
-.container h1{
+.white_title{
     font-weight: bold;
     font-size: 65px;
     color: #fff;
 }
 
-.container p{
+.white_para{
     font-size: 18px;
     color: #fff;
 }
@@ -43,4 +45,145 @@ header{
     padding: 10px 25px;
     border: none;
     border-radius: 5px;
+}
+
+/* donateNow section */
+
+.donateNow{
+    display: flex;
+    min-height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.black_title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.grey_para{
+    font-size: 18px;
+    color: #707070;
+}
+
+.moneyChart{
+    display: flex;
+    gap: 20px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 136px;
+    min-height: 123px;
+    color: #707070;
+    background-color: #FAFAFA;
+    border-radius: 8px;
+}
+
+.moneyChart .active{
+    border: 2px solid #707070;
+}
+
+.otherAmount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-width: 67%;
+}
+
+.otherAmount input{
+    outline: none;
+    text-align: center;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 0;
+    border-bottom: 1px solid #DADADA;
+}
+
+.otherAmount button{
+    width: 30%;
+}
+
+
+/* donate plan section */
+
+
+.donatePlan{
+    display: flex;
+    min-height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    width: 360px;
+    height: 352px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+.plan img{
+    max-width: 58px;
+    max-height: 50px;
+}
+.plan h4{
+    font-size: 24px;
+}
+
+.plans .plan:nth-child(1){
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.plans .plan:nth-child(2){
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.plans .plan:nth-child(3){
+    background-color: rgba(255, 244, 214, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
