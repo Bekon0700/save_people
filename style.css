@@ -11,7 +11,7 @@ header{
     min-height: 669px;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(./images/donation9.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url(./images/donation9.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
